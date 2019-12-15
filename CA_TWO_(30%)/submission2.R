@@ -3,8 +3,8 @@ file_read_pd <- read.csv(file.choose())
 
 height <- file_read_pd$Height..cm
 weight <- file_read_pd$Weight
-age <- file_read_pd$Age
-gender <- file_read_pd$Sex
+#age <- file_read_pd$Age
+#gender <- file_read_pd$Sex
 #dtframe <- data.frame(height, weight, age, gender)
 dtframe <- data.frame(height, weight)
 data_pd <- na.omit(dtframe)
